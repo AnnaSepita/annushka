@@ -7,7 +7,7 @@ body {
 }
 header{
     width: 100%;
-    background: url("img/4.png") repeat-x, #0f6eb8;
+    background: url("img/1_1.png") repeat-x, #0f6eb8;
     height: 965px;
 }
 ul {
@@ -110,16 +110,24 @@ a:hover {
     font: 600 32px/1.5 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
+    margin-bottom: 20px;
 }
 .arrows{
-    margin-left: 100px;
+    padding-right: 24%;
+}
+.fa-caret-down{
+    display: inline-block;
+    float: right;
+    margin-right: 7%;
+    color: white;
+    text-align: center;
 }
 .block2{
     display: inline-block;
     padding-top: 3.1%;
     background-color:#ffffff;
     color: black;
-    height: 148px;
+    height: 146px;
 }
 .img3{
     padding-left: 60px;
@@ -151,13 +159,14 @@ a:hover {
     font: 800 35px/1.5 'Open Sans', sans-serif;
     background-color: black;
     color: white;
-    height: 210px;
+    height: auto;
     letter-spacing: 5px;
     display: inline-block;
 }
 .img6{
     padding-left: 10%;
     padding-top: 47px;
+    padding-bottom: 50px;
 }
 .logo{
     padding-left: 17px;
@@ -168,15 +177,16 @@ a:hover {
     background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
     color: #0B2349;
-    display: table;
 }
 .block4{
     width: 100%;
-    height: 804px;
+    height: auto;
     display: inline-block;
     float: left;
     background-color:#f3f3f3;
+   z-index: 1;
 }
 .qw{
     padding-left: 10.3%;
@@ -189,8 +199,8 @@ a:hover {
     background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
     color: #0B2349;
-    display: table;
 }
 .title{
     font: 600 20px/1.5 'Open Sans', sans-serif;
@@ -204,7 +214,9 @@ a:hover {
     line-height: 30px;
 }
 .video1{
+    display: inline-block;
     float: right;
+    padding-bottom: 52px;
 }
 .price{
     margin-top: 50px;
@@ -231,4 +243,34 @@ border:2px solid #0D61BC;
 .img7{
     margin-top: 54px;
     margin-left: 33px;
+}
+#slider{
+    z-index: 2;
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+    text-align: center;
+}
+.picture5{
+    text-align: center;
+    margin-top: 49%;
+}
+.img8{
+    padding-left: 35px;
+    padding-top: 92px;
+    padding-bottom: 16.8%;
+}
+#photos{
+    background: url("img/19.png") repeat-x, #0f6eb8;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+.teg{
+    display: block;
+}
+.fa-instagram{
+
 }
