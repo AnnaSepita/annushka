@@ -328,14 +328,81 @@ h2:hover{
 .info{
     background-color:#0d6cb6;
     color: white;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 10% 5%;
+}
+#contact-info{
+    display: inline-block;
+    padding-bottom: 80px;
+}
+
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+.cf:after{
+    clear:both;
+}
+.cf{
+    zoom:1;
+}
+.fa-paper-plane{
+    color: #0d6cb6;
+}
+.form-wrapper {
+    width: 450px;
+    background: #0d6cb6;
+    border-radius: 10px;
+}
+/* Стили поля ввода текста */
+.form-wrapper input {
+    border: 2px solid white;
+    width: 300px;
+    height: 16px;
+    padding: 10px 5px;
+    float: left;
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    background: #0d6cb6;
+    border-radius: 7px 0 0 7px;
+}
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+.form-wrapper input::-webkit-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+.form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+/* Кнопка отправки формы */
+.form-wrapper button {
+    overflow: visible;
+    position: relative;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 60px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: white;
+    border-radius: 0 7px 7px 0;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
+.form-wrapper button:hover{
+    background: black;
 }
 .title1{
-    font: 600 30px/1.5 'Open Sans', sans-serif;
+    font: 600 28px/1.5 'Open Sans', sans-serif;
 }
 .subtitle{
-    font: 100 24px/1.5 'Open Sans', sans-serif;
+    font: 100 18px/1.5 'Open Sans', sans-serif;
 }
 .content{
     display: block;
@@ -343,19 +410,29 @@ h2:hover{
     font: 600 26px/1.5 'Open Sans', sans-serif;
 }
 .td1{
+    display: inline-block;
     padding-right: 70px;
 }
 form{
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .td2{
     padding-right: 70px;
-    line-height: 25px;
+    line-height: 30px;
 }
 .nosweat{
+    padding-top: 30px;
     border-top: 3px solid cornflowerblue;
 }
 .icons{
     float: right;
 }
+.icons:hover{
+    color: #8AA9D6;
+    size: 20px;
+}
+.iinf{
+    padding-right: 20px;
+}
+
 
