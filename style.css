@@ -34,7 +34,8 @@ a:hover {
 .promo{
     width: 100%;
     background-color: black;
-    height: 65px;
+    height: auto;
+    padding-bottom: 5px;
 }
 .promo1{
     text-align: center;
@@ -54,17 +55,14 @@ a:hover {
     color: #619fce;
 }
 .navigation{
-    display: inline-block;
     width: 100%;
     background:#619fce;
     opacity: 0.7;
-    height: 85px;
+    height: auto;
+    padding-bottom: 30px;
 }
-.img{
-    display: inline-block;
-}
+
 #menu{
-    display: inline-block;
     font-weight: 500;
     font-size: 25px;
     text-transform: uppercase;
@@ -72,7 +70,6 @@ a:hover {
     position: relative;
 }
 .home{
-    display: inline-block;
     padding-left: 25px;
 }
 .fa-shopping-cart{
@@ -95,19 +92,19 @@ a:hover {
 .sweat{
     color: white;
     text-align: center;
-    margin-top: 13%;
+    margin-top: 12%;
     letter-spacing: 10px;
 }
 .line1{
     font-family: "Brush Script MT";
-    font-size: 97px;
+    font-size: 100px;
     text-transform: uppercase;
     word-spacing: 15px;
     font-style: italic;
     font-weight: 600;
 }
 .line2{
-    font: 600 32px/1.5 'Open Sans', sans-serif;
+    font: 600 34px/1.5 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-bottom: 20px;
@@ -118,7 +115,7 @@ a:hover {
 .fa-caret-down{
     display: inline-block;
     float: right;
-    margin-right: 7%;
+    margin-right: 5%;
     color: white;
     text-align: center;
 }
@@ -127,11 +124,10 @@ a:hover {
     padding-top: 3.1%;
     background-color:#ffffff;
     color: black;
-    height: 146px;
+    height: 144px;
 }
 .img3{
     padding-left: 60px;
-    height: auto;
 }
 .img4{
     padding-left: 47px;
@@ -166,15 +162,14 @@ a:hover {
 .img6{
     padding-left: 10%;
     padding-top: 47px;
-    padding-bottom: 50px;
+    padding-bottom: 53px;
 }
 .logo{
     padding-left: 17px;
 }
-
 .gradient-text {
     font:800 50px/1.5 'Open Sans', sans-serif;
-    background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+    background: linear-gradient(45deg, #0B2349 8%, #0D61BC 66%, #8AA9D6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -196,11 +191,11 @@ a:hover {
     font-family: 'Rubik One', sans-serif;
     font-size: 60px;
     letter-spacing: 5px;
-    background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+    background: linear-gradient(45deg, #0B2349 8%, #0D61BC 56%, #8AA9D6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
-    color: #0B2349;
+
 }
 .title{
     font: 600 20px/1.5 'Open Sans', sans-serif;
@@ -229,7 +224,7 @@ a:hover {
     margin-left: 20px;
     line-height: 40px;
 }
-.shop{
+#shop{
     margin-top: 54px;
     text-align: center;
     color: black;
@@ -243,6 +238,7 @@ border:2px solid #0D61BC;
 .img7{
     margin-top: 54px;
     margin-left: 33px;
+    padding-bottom: 3.6%;
 }
 #slider{
     z-index: 2;
@@ -251,6 +247,9 @@ border:2px solid #0D61BC;
     height: auto;
     margin-top: 20%;
     text-align: center;
+}
+.video2{
+    position: relative;
 }
 .picture5{
     text-align: center;
@@ -270,7 +269,6 @@ border:2px solid #0D61BC;
     display: inline-block;
     padding-bottom: 6.5%;
 }
-
 .fa-instagram{
     padding-top: 7%;
 }
@@ -285,13 +283,11 @@ border:2px solid #0D61BC;
 .picture-block{
     display: inline-block;
     padding: 0px 70px 30px;
-    text-align: justify;
 }
 .three-photos{
     padding: 100px 26px 41px;
     margin-top: 1%;
 }
-
 .example2 {
     display:inline-block;
     position:relative;
@@ -323,12 +319,12 @@ h2:hover{
 }
 .end{
     text-align: center;
-    margin-top: 14%;
+    margin-top: 4%;
 }
 .info{
     background-color:#0d6cb6;
     color: white;
-    padding: 10% 5%;
+    padding: 6% 8%;
 }
 #contact-info{
     display: inline-block;
@@ -411,13 +407,12 @@ h2:hover{
 }
 .td1{
     display: inline-block;
-    padding-right: 70px;
 }
 form{
     padding-top: 20px;
 }
 .td2{
-    padding-right: 70px;
+    padding-right: 20px;
     line-height: 30px;
 }
 .nosweat{
@@ -434,5 +429,282 @@ form{
 .iinf{
     padding-right: 20px;
 }
+@media screen and (max-width: 1917px){
+    .three-photos{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .example2{
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width: 1826px){
+    .example2{
+        width: 33%;
+        padding-right: 0px;
+    }
+    .example2 span{
+        margin-top: 5%;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1798px){
+    .img3{
+        padding-left: 10px;
+    }
+    .video1{
+        width: 100%;
+        float: none;
+    }
+    .title .starting .tagline{
+        display: none;
+    }
+    .img7{
+        display: block;
+    }
+    .info{
+        padding: 5% 4%;
+    }
+}
+@media screen and (max-width: 1768px){
+    .img4{
+        padding-left: 20px;
+    }
+    .td1 .td2{
+        padding-right: 30px;
+    }
+    .img6{
+        padding-left: 7%;
+    }
+}
+@media screen and (max-width: 1610px){
+    .img3{
+        display: block;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .img4{
+        padding-right: 30px;
+    }
+    .block2{
+        padding-left: 7%;
+    }
+    .td1 .td2{
+        padding: 0px;
+    }
+    .title1{
+        font: 600 22px/1.5 'Open Sans', sans-serif;
+    }
+    .subtitle{
+        font: 100 12px/1.5 'Open Sans', sans-serif;
+    }
+    .form-wrapper input {
+        width: 200px;
+    }
+    #menu{
+        padding-left: 10px;
+    }
+    .line1{
+        font-size: 80px;
+    }
+    .line2{
+        font-size: 27px;
+    }
+    .gradient-text {
+        font-size: 40px;
+    }
+    .gradient-text1 {
+        font-size: 45px;
+    }
+    .title1{
+        font: 500 15px/1.5 'Open Sans', sans-serif;
+    }
+    .subtitle{
+        font: 100 9px/1.5 'Open Sans', sans-serif;
+    }
+    .block3 {
+        text-align: center;
+        padding-left: 0;
+        font: 600 25px/1.5 'Open Sans', sans-serif;
+    }
+    #menu{
+        font-size: 21px;
+    }
+}
+@media screen and (max-width: 1375px){
+    .img4{
+        padding-right: 0px;
+    }
+    .home{
+        padding-left: 5px;
+    }
+}
+@media screen and (max-width: 1266px){
+    .fa-shopping-cart{
+        padding-left: 5px;
+    }
+}
+@media screen and (max-width: 1266px){
+    .img4{
+        padding-left: 0;
+        padding-right: 4px;
+    }
+    #logos{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1206px){
+    .img8{
+        width: 13%;
+    }
 
+}
+@media screen and (max-width: 1179px){
+    header{
+        width: 100%;
+    }
+    .navigation{
+        text-align: center;
+    }
+    .home{
+        display: block;
+    }
+    .img{
+        text-align: center;
+    }
+    .line1{
+        font-size: 55px;
+    }
+    .line2{
+        font-size: 17px;
+    }
+    .gradient-text{
+        font-size: 30px;
+    }
+    .gradient-text1{
+        font-size: 32px;
+    }
+    .tagline{
+        font-size: 15px;
+    }
+    .starting{
+        font-size: 22px;
+    }
+    #shop{
+        font-size: 20px;
+    }
+    .picture-block{
+        padding-left: 10px;
+        padding-right:10px ;
+    }
+    .block3 {
+        font: 400 16px/1.5 'Open Sans', sans-serif;
+        letter-spacing: 3px;
+    }
+}
+@media screen and (max-width: 1054px){
+    .img8{
+        width: 30%;
+    }
+    .as{
+        width: 35%;
+    }
+    .promo1{
+        font-size: 11px;
+    }
+    .home{
+        font-size: 16px;
+    }
+    .images{
+        font: 800 12px/1.5 'Open Sans', sans-serif;
+    }
+    .img5 {
+        font: 800 12px/1.5 'Open Sans', sans-serif;
+    }
+    .img1, .img2{
+        margin-top: 20px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 854px){
+    .images{
+        display: inline;
+        padding-right: 5px;
+    }
+    .home {
+        font-size: 14px;
+    }
+    .line1{
+        font-size: 35px;
+    }
+    .line2 {
+        font-size: 10px;
+    }
+    .gradient-text{
+        font-size: 20px;
+    }
+    .gradient-text1{
+        font-size: 22px;
+    }
+    .title{
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    .tagline{
+        font-size: 10px;
+    }
+    #shop{
+        font-size: 12px;
+        padding: 20px 20px;
+        margin-top: 20px;
+    }
+    .img6{
+        padding-left: 0%;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    .logo{
+        padding-left: 0px;
+    }
+    .img1, .img2{
+        height: 30px;
+    }
+    .example2 span{
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .buy{
+        font-size: 10px;
+    }
+    .content{
+        font-size: 12px;
+    }
+    td1{
+        padding-right: 10px;
+    }
+    .form-wrapper input {
+        width: 100px;
+    }
+    .teg2{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 777px){
+    .three-photos{
+        width: 100%;
+    }
+    .example2{
+        width: 31%;
+    }
+    #logos{
+        width: 100%;
+    }
+    .img4{
+        padding-right: 0px;
+    }
+    #logos{
+        display: block;
+    }
 
+}
