@@ -437,6 +437,9 @@ form{
     .example2{
         padding-right: 5px;
     }
+    .starting{
+        display: block;
+    }
 }
 @media screen and (max-width: 1826px){
     .example2{
@@ -493,12 +496,6 @@ form{
     .td1 .td2{
         padding: 0px;
     }
-    .title1{
-        font: 600 22px/1.5 'Open Sans', sans-serif;
-    }
-    .subtitle{
-        font: 100 12px/1.5 'Open Sans', sans-serif;
-    }
     .form-wrapper input {
         width: 200px;
     }
@@ -512,13 +509,13 @@ form{
         font-size: 27px;
     }
     .gradient-text {
-        font-size: 40px;
+        font-size: 35px;
     }
     .gradient-text1 {
-        font-size: 45px;
+        font-size: 40px;
     }
     .title1{
-        font: 500 15px/1.5 'Open Sans', sans-serif;
+        font: 500 12px/1.5 'Open Sans', sans-serif;
     }
     .subtitle{
         font: 100 9px/1.5 'Open Sans', sans-serif;
@@ -526,10 +523,14 @@ form{
     .block3 {
         text-align: center;
         padding-left: 0;
-        font: 600 25px/1.5 'Open Sans', sans-serif;
+        font: 600 22px/1.5 'Open Sans', sans-serif;
     }
     #menu{
         font-size: 21px;
+    }
+    .content{
+        font-size: 14px;
+        font-weight: 100;
     }
 }
 @media screen and (max-width: 1375px){
@@ -539,13 +540,57 @@ form{
     .home{
         padding-left: 5px;
     }
+    .promo1{
+        font-size: 14px;
+    }
+    .home{
+        font-size: 16px;
+    }
+    .img1, .img2{
+        height: 30px;
+        margin-top: 20px;
+    }
+    .line1{
+        font-size: 60px;
+    }
+    .line2{
+        font-size: 17px;
+    }
+    .gradient-text{
+        font-size: 24px;
+    }
+    .gradient-text1{
+        font-size: 26px;
+    }
+    .images, .img5{
+        font-size: 14px;
+    }
+    .logo{
+        font-size: 14px;
+    }
+    .title{
+        font-size: 16px;
+    }
+    .tagline{
+        font-size: 14px;
+    }
+    .starting{
+        font-size: 21px;
+    }
+    #shop{
+        font-size: 18px;
+    }
+    .teg2{
+        font-size: 22px;
+    }
+    .buy{
+        font-size: 20px;
+    }
 }
 @media screen and (max-width: 1266px){
     .fa-shopping-cart{
         padding-left: 5px;
     }
-}
-@media screen and (max-width: 1266px){
     .img4{
         padding-left: 0;
         padding-right: 4px;
@@ -556,7 +601,8 @@ form{
 }
 @media screen and (max-width: 1206px){
     .img8{
-        width: 13%;
+        padding-top: 10px;
+        padding-bottom: 0px;
     }
 
 }
@@ -567,43 +613,25 @@ form{
     .navigation{
         text-align: center;
     }
-    .home{
-        display: block;
-    }
-    .img{
-        text-align: center;
-    }
     .line1{
-        font-size: 55px;
+        font-size: 35px;
     }
     .line2{
-        font-size: 17px;
-    }
-    .gradient-text{
-        font-size: 30px;
-    }
-    .gradient-text1{
-        font-size: 32px;
-    }
-    .tagline{
-        font-size: 15px;
-    }
-    .starting{
-        font-size: 22px;
-    }
-    #shop{
-        font-size: 20px;
+        font-size: 12px;
     }
     .picture-block{
         padding-left: 10px;
         padding-right:10px ;
     }
     .block3 {
-        font: 400 16px/1.5 'Open Sans', sans-serif;
+        font: 400 14px/1.5 'Open Sans', sans-serif;
         letter-spacing: 3px;
     }
+    .example2 span{
+        top: 67%;
+    }
 }
-@media screen and (max-width: 1054px){
+@media screen and (max-width: 1059px){
     .img8{
         width: 30%;
     }
@@ -611,20 +639,39 @@ form{
         width: 35%;
     }
     .promo1{
-        font-size: 11px;
+        font-size: 10px;
     }
     .home{
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .as{
+        height: 20%;
+        width: 20%;
     }
     .images{
-        font: 800 12px/1.5 'Open Sans', sans-serif;
+        font: 800 10px/1.5 'Open Sans', sans-serif;
     }
     .img5 {
-        font: 800 12px/1.5 'Open Sans', sans-serif;
+        font: 800 10px/1.5 'Open Sans', sans-serif;
     }
-    .img1, .img2{
-        margin-top: 20px;
-        height: 40px;
+    .title{
+        font-size: 14px;
+    }
+    .tagline{
+        font-size: 11px;
+    }
+    .teg2{
+        font-size: 14px;
+    }
+    .example2 span{
+        top:70%;
+        font-size: 14px;
+    }
+    .tm{
+        font-size: 7px;
+    }
+    .price{
+        margin-top: 10px;
     }
 }
 @media screen and (max-width: 854px){
@@ -633,26 +680,23 @@ form{
         padding-right: 5px;
     }
     .home {
-        font-size: 14px;
+        font-size: 12px;
     }
     .line1{
-        font-size: 35px;
+        font-size: 32px;
     }
     .line2 {
-        font-size: 10px;
-    }
-    .gradient-text{
-        font-size: 20px;
-    }
-    .gradient-text1{
-        font-size: 22px;
+        font-size: 9px;
     }
     .title{
-        font-size: 13px;
+        font-size: 11px;
         padding-bottom: 10px;
     }
     .tagline{
-        font-size: 10px;
+        font-size: 8px;
+    }
+    .starting{
+        font-size: 14px;
     }
     #shop{
         font-size: 12px;
@@ -680,7 +724,7 @@ form{
     .content{
         font-size: 12px;
     }
-    td1{
+    .td1{
         padding-right: 10px;
     }
     .form-wrapper input {
@@ -689,11 +733,17 @@ form{
     .teg2{
         font-size: 17px;
     }
-}
-@media screen and (max-width: 777px){
-    .three-photos{
-        width: 100%;
+    .gradient-text, .gradient-text1{
+        font-size: 20px;
     }
+    .img8{
+        height: 15%;
+     }
+    .fa-instagram{
+        padding-top: 5px;
+    }
+}
+@media screen and (max-width: 786px){
     .example2{
         width: 31%;
     }
@@ -703,8 +753,89 @@ form{
     .img4{
         padding-right: 0px;
     }
-    #logos{
+    .images,.img5{
+        font-size: 8px;
+    }
+    .tm {
+        font-size: 5px;
+    }
+    .teg2{
+        font-size: 12px;
+    }
+    .home{
         display: block;
     }
-
+    .navigation{
+        padding-bottom: 5px;
+    }
+    .img7{
+        margin-top: 34px;
+    }
+}
+@media screen and (max-width: 598px) {
+    .example2 span{
+        top:65%;
+    }
+    .line1{
+        font-size: 21px;
+    }
+    .line2{
+        font-size: 9px;
+    }
+    .promo1{
+        font-size: 7px;
+    }
+    .home, .logo{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 478px) {
+    .example2 span{
+        top:61%;
+    }
+    .form-wrapper{
+        width: 190px;
+    }
+    .img8{
+        width: 50%;
+    }
+    .img{
+        margin-top: 0;
+        display: inline-block;
+    }
+    .img8{
+        width: auto;
+    }
+    .img2{
+        border: none;
+    }
+}
+@media screen and (max-width: 438px) {
+    .as{
+        height: 15%;
+        width: 15%;
+    }
+    .example2 span{
+        top:52%;
+        font-size: 10px;
+        font-weight: 100;
+    }
+    .content{
+        font-size: 11px;
+    }
+    .img7{
+        margin-top: 10px;
+        margin-left: 3px;
+    }
+}
+@media screen and (max-width: 328px) {
+    #logos{
+        width: 0%;
+    }
+    .img8{
+        width: 10%;
+    }
+    .img6{
+        display: block;
+    }
 }
