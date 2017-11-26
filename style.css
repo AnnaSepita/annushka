@@ -61,7 +61,13 @@ a:hover {
     height: auto;
     padding-bottom: 30px;
 }
-
+.mobile-menu {
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
+    display: none;
+    cursor: pointer;
+}
 #menu{
     font-weight: 500;
     font-size: 25px;
@@ -72,8 +78,15 @@ a:hover {
 .home{
     padding-left: 25px;
 }
+video{
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
 .fa-shopping-cart{
     padding-left: 100px;
+    float: right;
 }
 .fa-shopping-cart:hover{
     color: white;
@@ -195,7 +208,6 @@ a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
-
 }
 .title{
     font: 600 20px/1.5 'Open Sans', sans-serif;
@@ -250,6 +262,7 @@ border:2px solid #0D61BC;
 }
 .video2{
     position: relative;
+    z-index: 2;
 }
 .picture5{
     text-align: center;
@@ -288,6 +301,13 @@ border:2px solid #0D61BC;
     padding: 100px 26px 41px;
     margin-top: 1%;
 }
+.example_beauty{
+    height: auto;
+}
+figure {
+    background:  #0D61BC;
+    display: block;
+}
 .example2 {
     display:inline-block;
     position:relative;
@@ -311,7 +331,7 @@ h2{
     font-family:Chau Philomene One, sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
-    padding-top: 17px;
+    padding-top: 13px;
     padding-bottom: 17px;
 }
 h2:hover{
@@ -421,6 +441,7 @@ form{
 }
 .icons{
     float: right;
+    margin-left: 20px;
 }
 .icons:hover{
     color: #8AA9D6;
@@ -429,7 +450,7 @@ form{
 .iinf{
     padding-right: 20px;
 }
-@media screen and (max-width: 1917px){
+@media screen and (max-width: 1919px){
     .three-photos{
         width: 100%;
         padding: 30px 0px;
@@ -547,8 +568,8 @@ form{
         font-size: 16px;
     }
     .img1, .img2{
-        height: 30px;
-        margin-top: 20px;
+        height: 40px;
+        margin-top: 10px;
     }
     .line1{
         font-size: 60px;
@@ -586,6 +607,9 @@ form{
     .buy{
         font-size: 20px;
     }
+    .tagline{
+        line-height: 5px;
+    }
 }
 @media screen and (max-width: 1266px){
     .fa-shopping-cart{
@@ -602,9 +626,8 @@ form{
 @media screen and (max-width: 1206px){
     .img8{
         padding-top: 10px;
-        padding-bottom: 0px;
+        padding-bottom: 9px;
     }
-
 }
 @media screen and (max-width: 1179px){
     header{
@@ -630,6 +653,9 @@ form{
     .example2 span{
         top: 67%;
     }
+    header{
+        height: 565px;
+    }
 }
 @media screen and (max-width: 1059px){
     .img8{
@@ -642,7 +668,10 @@ form{
         font-size: 10px;
     }
     .home{
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .img1, .img2{
+        height: 35px;
     }
     .as{
         height: 20%;
@@ -672,6 +701,9 @@ form{
     }
     .price{
         margin-top: 10px;
+    }
+    .form-wrapper{
+        padding-bottom: 20px;
     }
 }
 @media screen and (max-width: 854px){
@@ -742,6 +774,21 @@ form{
     .fa-instagram{
         padding-top: 5px;
     }
+    header{
+        height: 465px;
+    }
+    .home{
+        display: none;
+    }
+    .mobile-menu{
+        float: left;
+        display: block;
+        padding-left: 30px;
+    }
+    .fa-shopping-cart{
+        padding: 0;
+        margin: 0;
+    }
 }
 @media screen and (max-width: 786px){
     .example2{
@@ -762,14 +809,14 @@ form{
     .teg2{
         font-size: 12px;
     }
-    .home{
-        display: block;
-    }
     .navigation{
         padding-bottom: 5px;
     }
     .img7{
         margin-top: 34px;
+    }
+    #contact-info{
+        padding-bottom: 30px;
     }
 }
 @media screen and (max-width: 598px) {
@@ -789,12 +836,27 @@ form{
         font-size: 11px;
     }
 }
+@media screen and (max-width: 545px) {
+    .img1, .img2 {
+        display: inline-block;
+        height: 25px;
+    }
+}
+@media screen and (max-width: 514px) {
+    .img1, .img2 {
+        height: 20px;
+    }
+}
 @media screen and (max-width: 478px) {
+    .navigation{
+        display: block;
+    }
     .example2 span{
         top:61%;
     }
     .form-wrapper{
         width: 190px;
+        padding-bottom: 30px;
     }
     .img8{
         width: 50%;
@@ -806,9 +868,15 @@ form{
     .img8{
         width: auto;
     }
-    .img2{
-        border: none;
+}
+@media screen and (max-width: 426px) {
+    #menu{
+        display: block;
     }
+    .img1,.img2{
+       height: 15px;
+    }
+
 }
 @media screen and (max-width: 438px) {
     .as{
@@ -828,6 +896,11 @@ form{
         margin-left: 3px;
     }
 }
+@media screen and (max-width: 376px) {
+    .img1,.img2{
+        height: 10px;
+    }
+}
 @media screen and (max-width: 328px) {
     #logos{
         width: 0%;
@@ -837,5 +910,8 @@ form{
     }
     .img6{
         display: block;
+    }
+    .img{
+        float: left;
     }
 }
